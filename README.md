@@ -40,7 +40,7 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ---
 ## CIRCUIT DIAGRAM
-<img width="836" height="455" alt="image" src="https://github.com/user-attachments/assets/e5181151-836f-4f80-8f56-53b23ff05c74" />
+![WhatsApp Image 2025-12-05 at 22 41 23_e254573d](https://github.com/user-attachments/assets/0810bc70-c1b0-4b66-a13d-5c45b9efca13)
 
 
 ## MODEL GRAPH
@@ -49,18 +49,8 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 ---
 
 ## DESIGN
+![WhatsApp Image 2025-12-05 at 22 47 12_8fca391e](https://github.com/user-attachments/assets/f172f50b-dd3e-48be-94b5-3b7912a3b7f5)
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
 
 
 ## PROCEDURE
@@ -76,27 +66,15 @@ PROCEDURE - (LPF):
 
 ## TABULATION
 
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+![WhatsApp Image 2025-12-05 at 22 41 43_fbbb88bc](https://github.com/user-attachments/assets/cccb4689-0d76-4c98-8901-2bff21acb8b7)
+
 		
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-12-05 at 22 42 25_028e967b](https://github.com/user-attachments/assets/b00bb00c-5ec5-464d-8bee-395c46c55c63)
 
----
 
  ## 6 B HIGH PASS FILTER
 
@@ -122,7 +100,7 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## CIRCUIT DIAGRAM
 
-<img width="887" height="486" alt="image" src="https://github.com/user-attachments/assets/907a1395-28d4-406f-ac09-96c4e060587e" />
+![WhatsApp Image 2025-12-05 at 22 42 45_27413766](https://github.com/user-attachments/assets/f74c179f-0725-4eca-859c-00f57c918457)
 
 
 ## MODEL GRAPH
@@ -132,18 +110,8 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 ---
 
 ## DESIGN
+![WhatsApp Image 2025-12-05 at 22 47 26_297c72ef](https://github.com/user-attachments/assets/9d9243a6-eeaa-4672-9284-d7ba940aff96)
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
 
 
 ## PROCEDURE
@@ -160,24 +128,13 @@ PROCEDURE - ( HPF):
 ## TABULATION
 
 		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+![WhatsApp Image 2025-12-05 at 22 43 18_28cf559e](https://github.com/user-attachments/assets/9194b987-b5ad-4b47-9056-1be37e0f19e3)
+
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-12-05 at 22 44 07_2ec4252c](https://github.com/user-attachments/assets/1702a2b3-2cd5-4442-8718-a7c6146a91c3)
 
 ---
 
@@ -205,7 +162,7 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 ## CIRCUIT DIAGRAM
 
-<img width="1068" height="446" alt="image" src="https://github.com/user-attachments/assets/ee37b95a-05ea-448c-9102-111e071e41e8" />
+![WhatsApp Image 2025-12-05 at 22 44 31_186c45e7](https://github.com/user-attachments/assets/278a4e6c-cc3e-4ed3-97e6-76eb60a8415f)
 
 ## MODEL GRAPH
 
@@ -217,17 +174,8 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 ## DESIGN
 
 DESIGN: BAND PASS FILTER
+![WhatsApp Image 2025-12-05 at 22 47 44_3b094550](https://github.com/user-attachments/assets/d9e11873-c948-430e-8dbc-6e2b6bb5a26e)
 
-Design a BPF to pass a band of 400Hz to 2KHz with a pass band gain of 4.
-1.	Select the highest cut-off frequency of LPF as fH = 10 KHz and the lowest cut-off frequency of HPF as fL = 1 KHz.
-2.	Design the HPF first by taking fL = 1KHz. Assume the value of C < 1μf. Let C = 0.1μf.
-3.	Calculate R from the expression. Given: fH = 2KHz = 1/ (2πR1C1) Let C1 = 0.1 µF, R1 = 7.9 KΩ
-Given: fL = 400Hz = 1/ (2πR2C2)
-Let C2 = 0.1 µF, R2 = 39.8 KΩ
-Pass band Gain=4
-Now		Ao = 1 + (Rf / R1) 2-1=(Rf / Ri)
-Ri = Rf
-Let Ri = Rf = 10 KΩ
 
 
 ## PROCEDURE
@@ -243,26 +191,13 @@ PROCEDURE:BAND PASS FILTER
 
 
 ## TABULATION
+![WhatsApp Image 2025-12-05 at 22 45 02_5a3f1470](https://github.com/user-attachments/assets/d7ce2a04-d280-4737-8389-7ad15d2da4be)
 
-		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-12-05 at 22 45 47_a6933ee7](https://github.com/user-attachments/assets/8ad11f56-a068-442f-8203-48ef549b2300)
 
 ---
 ##RESULT:
